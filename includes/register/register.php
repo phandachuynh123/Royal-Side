@@ -5,7 +5,7 @@
                 <div class="col-lg-3 col-md-3">
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <h1 class="title_color">Register</h1>
+                    <h1 class="title_color">Đăng Ký</h1>
                     <form action="#">
                         <div class="mt-30">
                             <input type="text" name="user_name" placeholder="User name" onfocus="this.placeholder = ''"
@@ -36,17 +36,17 @@
                         <div class="mt-10">
 							<div class="default-select" id="default-select">
 								<select style="display: none;">
-									<option value="1">--Gender--</option>
-									<option value="1">Male</option>
-									<option value="1">Female</option>
+									<option value="1">Giới Tính</option>
+									<option value="1">Nam</option>
+									<option value="1">Nữ</option>
 								</select>
-                                <div class="nice-select" tabindex="0"><span class="current">--Gender--</span><ul class="list"><li data-value="1" class="option selected focus">Male</li><li data-value="1" class="option">Female</li></ul></div>
+                                <div class="nice-select" tabindex="0"><span class="current">Giới Tính</span><ul class="list"><li data-value="1" class="option selected focus">Nam</li><li data-value="1" class="option">Nữ</li></ul></div>
 							</div>
 						</div>
 
                         <div class="mt-10">
                             <input type="text" name="identify_number" placeholder="ID" onfocus="this.placeholder = ''"
-                                onblur="this.placeholder = 'ID'" required class="single-input">
+                                onblur="this.placeholder = 'CMND'" required class="single-input">
                         </div>
 
                         <div class="mt-10">

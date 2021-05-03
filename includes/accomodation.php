@@ -23,7 +23,7 @@
                         <img src="image/room2.jpg" alt="">
                         <a href="#" class="btn theme_btn button_hover">Book Now</a>
                     </div>
-                    <a href="#">
+                    <a href="room_detail.php">
                         <h4 class="sec_h4">Single Deluxe Room</h4>
                     </a>
                     <h5>$200<small>/night</small></h5>

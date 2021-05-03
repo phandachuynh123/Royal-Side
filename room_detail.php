@@ -1,22 +1,24 @@
-<div class="dealDetail__gallery">
-    <div class="row">
-        <div class="col-sm-8 col-lg-9 col-xs-12">
-            <div class="galleryGrid">
-                <div class="galleryGrid__item"><button type="button"><img src="" alt=""></button></div>
-            </div>
-        </div>
-        <div class="col-sm-4 col-lg-3 col-xs-12">
-            <div class="galleryInfo">
-                <div class="galleryInfo__price"><span>Giá chỉ từ:</span><span class="size-24 yellow-1 semibold"></span></div>
-                <div class="galleryInfo__btn"><button class="btn btn_orange">Mua ngay</button></div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="dealDetail__cont">
-    <div class="dealDetail__group">
-        <div class="dealDetail__info page-section" id="section_information">
-            <h5>Thông tin chi tiết</h5>
-        <div>
-    </div>
-</div>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="image/favicon.png" type="image/png">
+    <title>Royal Hotel</title>
+    <?php include('./includes/head.php') ?>
+</head>
+
+<body>
+    <?php include('./includes/header.php') ?>
+
+    <?php include('./includes/breadcrumb.php') ?>
+
+    <?php include('./includes/room_detail/room_detail.php') ?>
+
+    <?php include('./includes/footer.php') ?>
+
+</body>
+
+</html>
